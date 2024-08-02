@@ -1,22 +1,5 @@
 # javascript-exercises
 
-## 5th javascript mentorship session
-
-From now on the mentorships will be committed in the respective branches : mentorship03, mentorship04, mentorship05, etc.
-
-## Add your files
-
-```
-cd existing_repo
-cd solutions
-git remote add origin https://git.brainster.co/mentor-class-group-5/javascript-exercises
-git pull
-git checkout mentorship05
-git add .
-git commit -m "added starter files"
-git push
-```
-
 ## Exercise 01
 
 ```
