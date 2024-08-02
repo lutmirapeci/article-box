@@ -1,0 +1,37 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mentorship 05</title>
+    <!-- custom styles -->
+    <link rel="stylesheet" href="./src/assets/styles/index.css" />
+    <!-- bootstrap styles -->
+    <link rel="stylesheet" href="./src/assets/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container my-5 text-center">
+      <div class="row">
+        <div class="col mb-5">
+          <h1>Insights</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-10 offset-1">
+          <div class="row">
+            <div class="col filters">
+              <h2 class="h3 mb-3">Filter by number of likes</h2>
+              <button class="btn btn-secondary" id="showAll">Show all</button>
+              <button id="lessThan50" class="btn btn-warning">50</button>
+              <button id="between50And150" class="btn btn-info">50 - 150</button>
+              <button id="moreThan150" class="btn btn-dark">> 150</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row article-wrapper flex"></div>
+    </div>
+    <script src="./src/scripts/index.js"></script>
+  </body>
+</html>
